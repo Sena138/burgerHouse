@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fontAlfa {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 14px;
+}
+
+.fontBebas {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 14px;
+}
+
+.fontMontserrat {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+/* HEADER */
+
+header {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header {
+    padding: 55px 40px;
+    color: #3d2514;
+}
+
+.header-logo {}
+
+.header-contact__img {
+    display: inline-block;
+}
+
+.header-contact__text {
+    display: inline;
+    font-size: 14px;
+}
+
+.header-contact__text a {
+    text-decoration: none;
+    color: black;
+}
+
+.header-contact__phone {}
+
+
+/*------- menu */
+
+#menu .menu-item {
+    list-style: none;
+    letter-spacing: 3px;
+}
+
+#menu .fontBebas {
+    font-size: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+
+/*------- header intro */
+
+.textShadow {
+    text-shadow: 5px 5px white;
+}
+
+.header-intro {
+    margin-top: 10rem;
+}
+
+.header-intro__feedback {
+    border: 2px dashed;
+    display: inline;
+    font-size: 20px;
+}
+
+.header-intro__product {
+    margin-bottom: 0;
+    font-size: 6rem;
+    line-height: 1.4;
+}
+
+.header-intro__time {
+    font-size: 3rem;
+    line-height: .8;
+}
+
+.header-intro__img {
+    margin-top: 4rem;
+}
+
+
+/* MAIN */
+
+#main {
+    margin-top: 4rem;
+    color: #3d2514;
+    /* overflow: hidden; */
+}
+
+.fontTry {
+    font-size: 1.4rem;
+    margin-bottom: 0;
+    line-height: 1;
+}
+
+.fontMainIntro {
+    font-size: 2.5rem;
+    line-height: 1;
+}
+
+#main .textColor {
+    color: white;
+}
+
+.mtop {
+    margin-top: 20px;
+}
+
+#main .main-pr {
+    position: relative;
+}
+
+#main .main-pr .main-pr-text {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.advice {
+    margin-top: 4rem;
+    /* position: relative; */
+}
+
+.btn.btn-primary.btn-advice {
+    background-color: #ffc045;
+    border: none;
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0 auto;
+    border-radius: 0;
+}
+
+.title-advie {
+    font-size: 3rem;
+}
+
+.advice-text {}
+
+
+/* //product */
+
+.product-img_title {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.product-img_content {
+    font-weight: 100;
+}
+
+.btn.btn-primary.fontMontserrat.text-uppercase.product-img_btn {
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0 auto;
+    border-radius: 0;
+    background-color: #bf2222;
+}
+
+.slider {
+    box-shadow: 10px 10px 22px #dddddd;
+    border: 1px solid #dddddd;
+}
+
+#slider {
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+}
+
+.slide-text_header {
+    font-size: 1.6rem;
+    margin-bottom: 0;
+}
+
+.slide-text_title {
+    line-height: 1;
+    font-size: 2rem;
+}
+
+.slide-text_content {
+    font-size: 1rem;
+}
+
+.slide-content {
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+
+.slide {
+    margin: 1.5rem;
+}
+
+
+/* order */
+
+.book-table {
+    margin-top: 3rem;
+    /* margin-bottom: 3rem; */
+    overflow-x: clip;
+}
+
+.book-table_img {
+    width: 190px;
+    height: 200px;
+}
+
+.book-text_header {
+    font-size: 2rem;
+}
+
+.book-text_title {
+    font-size: 3rem;
+}
+
+.table-img {
+    height: 250px;
+    width: 70px;
+}
+
+.book-table_table {
+    position: relative;
+}
+
+.book-table_input {}
+
+.book-table_input input {
+    width: 385px;
+    height: 68px;
+    margin: 1rem;
+    border-radius: 5px;
+}
+
+.table-img1 {
+    position: absolute;
+    left: 40px;
+    z-index: -1;
+}
+
+.table-img2 {
+    position: absolute;
+    right: -113px;
+    top: 38px;
+    height: 400px;
+    width: 370px;
+    z-index: -1;
+}
+
+.btn-table {
+    background-color: #bf2222;
+    color: white;
+}
+
+
+/* Footer */
+
+#footer {
+    margin-top: 10rem;
+    color: white;
+    padding: 2rem;
+}
+
+.footer-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+
+.footer-content {
+    margin: 30px;
+}
+
+.footer-contact i {
+    font-size: 2rem;
+    padding-right: 1rem;
+}
+
+.company-refer {
+    margin: 30px;
+    /* align-self: ; */
+}
+
+.app-contact {
+    font-size: 1.5rem;
+}
+
+.app-contact i {}
